@@ -1,0 +1,7 @@
+{
+  "parent": "punishing_weapons:custom/spunishment",
+  "textures": {
+    "0": "punishing_weapons:blocks/sptexture",
+    "particle": "punishing_weapons:items/sp_1"
+  }
+}

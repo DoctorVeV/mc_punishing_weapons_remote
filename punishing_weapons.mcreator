@@ -1,0 +1,84 @@
+{
+  "mod_elements": [
+    {
+      "name": "SunsPunishment",
+      "type": "tool",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "suns_punishment",
+      "path": "~/Weapons"
+    },
+    {
+      "name": "SpRightClick",
+      "type": "procedure",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sp_right_click",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Weapons"
+    },
+    {
+      "name": "SpInHandTick",
+      "type": "procedure",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sp_in_hand_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/Weapons"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.punishing_weapons.suns_punishment": "Suns Punishment"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Weapons",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "punishing_weapons",
+    "modName": "Punishing Weapons",
+    "version": "1.0.0",
+    "author": "DoctorVeV",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.17.1",
+    "modElementsPackage": "main.punishingweapons",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202100354000
+}
